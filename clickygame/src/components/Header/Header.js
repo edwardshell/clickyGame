@@ -1,4 +1,5 @@
 import React from "react";
+import App from "../../App";
 
 const style = {
     height: "90px",
@@ -9,7 +10,7 @@ const Header = () => (
   <nav className="navbar navbar-light sticky-top" style={style}>
     <span className="navbar-brand mb-0 h1">ClickyGame!</span>
     <span className="navbar-brand mb-0 h1">Guessed right</span>
-    <span className="navbar-brand mb-0 h1">Score!</span>
+    <span className="navbar-brand mb-0 h1">Score: </span>
   </nav>
 );
 
